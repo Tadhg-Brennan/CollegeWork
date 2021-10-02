@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1447859773 source:c:\users\administrator\documents\computer code\myrpg\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"NPC.hpp"
+	"Team.hpp"
+	"Wizard.hpp"
+	<ctime>
+
+1447859773 source:c:\users\administrator\downloads\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"NPC.hpp"
+	"Team.hpp"
+	"Wizard.hpp"
+	<ctime>
+
+1447859788 c:\users\administrator\downloads\npc.hpp
+	<stdio.h>
+	"Stats.hpp"
+
+1447859790 c:\users\administrator\downloads\stats.hpp
+
+1447859792 c:\users\administrator\downloads\team.hpp
+	<stdio.h>
+	"NPC.hpp"
+
+1447859797 c:\users\administrator\downloads\wizard.hpp
+	"NPC.hpp"
+	<stdio.h>
+
+1447859787 source:c:\users\administrator\downloads\npc.cpp
+	"NPC.hpp"
+	"Stats.hpp"
+	<iostream>
+	<stdlib.h>
+
+1447859789 source:c:\users\administrator\downloads\stats.cpp
+	"Stats.hpp"
+	<iostream>
+	<stdlib.h>
+
+1447859791 source:c:\users\administrator\downloads\team.cpp
+	"Team.hpp"
+	"NPC.hpp"
+	<iostream>
+	<iomanip>
+
+1447859796 source:c:\users\administrator\downloads\wizard.cpp
+	"Wizard.hpp"
+	"NPC.hpp"
+	"Stats.hpp"
+	<iostream>
+
+1447859788 c:\users\administrator\documents\computer code\myrpg\npc.hpp
+	<stdio.h>
+	"Stats.hpp"
+
+1447859790 c:\users\administrator\documents\computer code\myrpg\stats.hpp
+
+1447859792 c:\users\administrator\documents\computer code\myrpg\team.hpp
+	<stdio.h>
+	"NPC.hpp"
+
+1447859797 c:\users\administrator\documents\computer code\myrpg\wizard.hpp
+	"NPC.hpp"
+	<stdio.h>
+
