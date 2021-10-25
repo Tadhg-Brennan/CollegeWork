@@ -48,14 +48,14 @@ void loop()
   bool switch2 = digitalRead(limswitch2);
   bool switch3 = digitalRead(limswitch3);
   bool switch4 = digitalRead(limswitch4);
-  if(switch1==HIGH&&switch2==HIGH){
+  if(switch1==HIGH && switch2==HIGH){
     digitalWrite(directionpin,HIGH);
     while(switch3==LOW){
       analogWrite(motorpin, 0);
       pwmspeed = 0;
       switch3 = digitalRead(limswitch3);
     }
-  } else if(switch3==HIGH&&switch4==HIGH){
+  } else if(switch3==HIGH && switch4==HIGH){
     digitalWrite(directionpin,LOW);
     while(switch1==LOW){
       analogWrite(motorpin, 0);
@@ -70,13 +70,14 @@ void loop()
     lastbuttonstate = buttonState;
   }
   
-if(motorState==HIGH){
+  if(motorState==HIGH){
       Ultrasonics();
-}
-else {
- analogWrite(motorpin, 0);
-}
-Serial.println(Ultradistance);
+  }
+  else {
+    analogWrite(motorpin, 0);
+  }
+  
+  Serial.println(Ultradistance);
 }
 
 void Buttonfunt(){
@@ -88,7 +89,7 @@ void Buttonfunt(){
   }
 }
 
- long DistanceMeasure(void)
+long DistanceMeasure(void)
 {
   digitalWrite(Trig, LOW);
   delayMicroseconds(2);
